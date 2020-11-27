@@ -1,0 +1,30 @@
+
+.results-list {
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.stock-results {
+    padding: 0;
+    list-style-type: none;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.stock-results .results-item {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+
+.stock-results .results-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}

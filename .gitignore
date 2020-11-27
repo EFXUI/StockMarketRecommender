@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# dist
+dist/
+
+# parcel
+.parcel-cache/
+
+pachage-logk.json

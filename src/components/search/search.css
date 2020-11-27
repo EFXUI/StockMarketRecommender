@@ -1,0 +1,29 @@
+.search-symbol {
+    color: #495057;
+    text-align: left;
+    height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    border-color: #495057;
+}
+
+.search-form {
+    background-color: #2b2b2b;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.search-symbol-label {
+    display: block;
+}
+
+.search-symbol:focus::placeholder {
+  color: transparent;
+}
+
+.search-symbol:focus, input:focus {
+  outline: none !important;
+}

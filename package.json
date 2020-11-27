@@ -1,0 +1,21 @@
+{
+  "name": "stockmarketrecommender",
+  "version": "1.0.0",
+  "description": "Interview Question",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "Eric Fournier",
+  "license": "ISC",
+  "browserslist": "> 0.2%",
+  "devDependencies": {
+    "miragejs": "^0.1.41",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
