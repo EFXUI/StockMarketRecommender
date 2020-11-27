@@ -17,7 +17,7 @@ const appp = () => {
     Header.post_render();   
     
     const results = document.getElementById('results-list');
-    var resultsInstance = new Results(results, 1.76);
+    var resultsInstance = new Results(results);
     resultsInstance.render();
 
     const search = document.getElementById('search-form');
